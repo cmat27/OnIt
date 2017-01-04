@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OnIt</string>
+    <string name="postButton"> Post On It </string>
+</resources>
