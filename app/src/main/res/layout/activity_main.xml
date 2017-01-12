@@ -12,39 +12,64 @@
     tools:context="com.example.cmat.onit.MainActivity"
     android:background="@drawable/board" >
 
-    <TextView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Post OnIt"
-        android:fontFamily="sans-serif-medium"
-        android:textSize="40sp"
-        android:textColor="#0a53db"
-        android:textAlignment="center"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
-        tools:ignore="HardcodedText" />
+        app:srcCompat="@drawable/post"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="87dp"
+        android:id="@+id/post_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/yposts"
-        android:layout_marginBottom="138dp"
-        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/view_button"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:contentDescription=""
-        tools:ignore="ContentDescription" />
+        android:layout_marginTop="47dp" />
 
-    <Button
-        android:text="@string/postButton"
+
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:elevation="13dp"
-        android:visibility="visible"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/textView" />
+        app:srcCompat="@drawable/view"
+        android:id="@+id/imageButton2"
+        android:layout_alignTop="@+id/post_button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+
+    <TextView
+        android:id="@+id/selectSchoolView"
+        android:text="@string/schoolOp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0334f9"
+        android:textAlignment="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/view_button"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/school_list"
+        android:backgroundTint="#d11f08"
+        android:padding="5dp"
+
+        android:textAlignment="center"
+        android:layout_below="@+id/selectSchoolView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+    "
+
+        />
 
 
 </RelativeLayout>

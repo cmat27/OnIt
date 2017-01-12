@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">OnIt</string>
+    <string name="welcome">Welcome</string>
     <string name="postButton"> Post On It </string>
+    <string name="schoolOp"> Select Your School </string>
+
+    <string-array name="school_list">
+        <item> City Tech</item>
+        <item> Baruch</item>
+        <item> Hunter College</item>
+        <item> John Jay</item>
+        <item> Queens College</item>
+        <item> LaGuardia Community</item>
+        <item> BMCC </item>
+    </string-array>
 </resources>
