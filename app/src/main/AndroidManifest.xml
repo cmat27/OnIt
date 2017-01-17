@@ -12,6 +12,17 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                             <!--changed from launcher to default-->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BulletinBoard" />
+
+        <!--THE following is just for the welcome activity-->
+        <activity android:name=".welcomeAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
