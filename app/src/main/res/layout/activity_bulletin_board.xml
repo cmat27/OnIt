@@ -26,17 +26,6 @@
         android:id="@+id/textView"
         tools:ignore="HardcodedText" />
 
-    <Button
-        android:text="@string/postButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:elevation="13dp"
-        android:visibility="visible"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/textView" />
-
     <ImageView
 
         android:src="@drawable/tutoringnote"

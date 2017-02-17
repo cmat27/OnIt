@@ -13,4 +13,15 @@
         <item> LaGuardia Community</item>
         <item> BMCC </item>
     </string-array>
+
+
+        <string name="itemType1"> Book </string>
+        <string name="itemType2"> Tutor </string>
+        <string name="itemType3"> Activity </string>
+        <string name="itemType4"> Employment </string>
+        <string name="itemType5"> Housing  </string>
+        <string name="itemType6"> Events </string>
+
+
+
 </resources>
