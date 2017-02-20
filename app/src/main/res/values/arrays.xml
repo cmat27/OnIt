@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="itemTypeList">
-        <item> @string/itemType1</item>
-        <item> @string/itemType2 </item>
-        <item> @string/itemType3</item>
-        <item> @string/itemType4</item>
-        <item> @string/itemType5</item>
-        <item> @string/itemType6</item>
-    </string-array>
 
 
 </resources>

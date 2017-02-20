@@ -12,30 +12,17 @@
     tools:context="com.example.cmat.onit.ItemInfo">
 
 
-
     <Spinner
-        android:id="@+id/SpinnerItemType"
-        android:layout_height="wrap_content"
+        android:id="@+id/itemOp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/item_Type"
+        android:textAlignment="center"
+        android:background="@drawable/ssbck"
+        android:contextClickable="true"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:prompt="@string/selectItem" />
 
-        android:layout_width="fill_parent"
-        android:layout_centerHorizontal="true"
-        android:entries="@array/itemTypeList">
-    </Spinner>
-
-    <EditText
-        android:id="@+id/itemTypeName"
-        android:layout_height="wrap_content"
-
-        android:inputType="textMultiLine"
-        android:lines="5"
-        android:layout_width="fill_parent">
-    </EditText>
-
-    <CheckBox
-        android:id="@+id/CheckBoxResponse"
-        android:layout_height="wrap_content"
-
-        android:layout_width="fill_parent">
-    </CheckBox>
 
 </RelativeLayout>

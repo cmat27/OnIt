@@ -4,6 +4,8 @@
     <string name="postButton"> Post On It </string>
     <string name="schoolOp"> Select Your School </string>
     <string name="school_prompt">Choose your School</string>
+    <string name="selectItem">Select Item Type</string>
+
     <string-array name="school_list">
         <item> City Tech</item>
         <item> Baruch</item>
@@ -15,12 +17,17 @@
     </string-array>
 
 
-        <string name="itemType1"> Book </string>
-        <string name="itemType2"> Tutor </string>
-        <string name="itemType3"> Activity </string>
-        <string name="itemType4"> Employment </string>
-        <string name="itemType5"> Housing  </string>
-        <string name="itemType6"> Events </string>
+    <string-array name="item_Type">
+        <item>Select Item Type</item>
+        <item>Book</item>
+        <item>Tutor</item>
+        <item>Activity</item>
+        <item>Employment</item>
+        <item>Employment</item>
+        <item>Housing</item>
+        <item>Events</item>
+
+    </string-array>
 
 
 
